@@ -1,0 +1,455 @@
+Name: Recipe
+Type: FolderType
+Children:
+- Name: Recipe_tags
+  Id: g=85212a1e6690193696262c02e83647bb
+  Type: BaseObjectType
+  Children:
+  - Name: Track1
+    Id: g=155bbd4babc0a370a6e56dafb2513880
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Track-1 Recipe"
+  - Name: Recipe_Name_T1
+    Id: g=668626e5c1c8c9bfa32fc526f0ceb26f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Id: g=e084d4a6c9f5ef02035e7523fa6f2fe0
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Recipe_Name_T1"
+      Children:
+      - Name: Mode
+        Id: g=f991716d17a565175a150f92fd1db945
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Main_machine_Speed_T1
+    Id: g=31422f1d320ed7a0ceed2a715c35ce8f
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=992392b8b7d1ee6a86f7d4132903f741
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Main_machine_Speed_T1"
+      Children:
+      - Name: Mode
+        Id: g=328a2d5258d88604f6f95e3834678213
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=3dfb0d688b1a12df6d1c3dee3ffcf5df
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=4854cdf34cf1eb7f0741bd3f279732dd
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 20.0
+      - Name: High
+        Id: g=937e42706fe980da2d58fa42a4baa880
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+      - Name: Constrain
+        Id: g=003b8c23a4c4d337fd800421f1936935
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Conveyor_Speed_T1
+    Id: g=6d3f001fa82d15e78b5083ce9879c629
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=a1120a32bcda6038a4ca223e6b023575
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Conveyor_Speed_T1"
+      Children:
+      - Name: Mode
+        Id: g=22c3f967170994a4dd28f73391829abb
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=ca48d367c187f9a781e6047f94c72cb6
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=22805a4482b9cbc5d6a8a0ce1e42f39a
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=863deada11d7636f1c476b1e686228fc
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 60.0
+      - Name: Constrain
+        Id: g=7b9e1d4cd7bac56523add4b59596fde0
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Spinning_motor_1_speed_T1
+    Id: g=5fb9f3607fc0a7a1195cca299e5512d0
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=f38dcbc6b9705ce59c4e4ed488b2f316
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Spinning_motor_1_speed_T1"
+      Children:
+      - Name: Mode
+        Id: g=cbc9cb5a84218c9ef8db5d489df4ae49
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=101d6f09ff94fe150983bfcbb86c2293
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=e428acc23e6aea1e9c403670b998b5a0
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=e70134340e889ca580e7c7ebb3084be5
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 60.0
+      - Name: Constrain
+        Id: g=cffcc0d31872d968dfcbc310db0bccd2
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Spinning_motor_2_speed_t1
+    Id: g=cba2051d198fc19c2d2c37532df705a9
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=97a936d1f01cbd4321d653e48c2ba6ea
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Spinning_motor_2_speed_T1"
+      Children:
+      - Name: Mode
+        Id: g=fd0b5e313fb97959840837270e38cbe5
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=46877aae550610d3f01a4fc1c7622896
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=9f2daad547549f647d3359832bc48746
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=d63a4dddbfcfcb953a2fb5a799460a9a
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 60.0
+      - Name: Constrain
+        Id: g=4c3fbdd96ef68a7efd065d15aa40dd40
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Rejection_Step_T1
+    Id: g=cdfbf6f565964fcc3d17714b4e7c0a6c
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ae1b14249efe79837442e8ee0ada5d2e
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_1 PLC/MicroControllerStation1/Tags/Recipe/Rejection_Step_T1"
+      Children:
+      - Name: Mode
+        Id: g=3a7788198d2290ed837cf66a8f9fcb01
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=915f9872b3cc41e6283bfa690ee838b7
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=1ea686ffc2427dc82466f42d40415a7c
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=5da7498ba7c074c058dc09d3b6dbeb3a
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 9999.0
+      - Name: Constrain
+        Id: g=3cf556c9d4c5b1ef739ef6ed894a4410
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Track2
+    Id: g=c89088506d65fb7551025f357161c8b6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Track-2 Recipe"
+  - Name: Recipe_Name_T2
+    Id: g=565074be8329a4130a8e02129ab9b9c1
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Id: g=518c439821aa51e4e828ef37abbf764b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Recipe_Name_T2"
+      Children:
+      - Name: Mode
+        Id: g=cf0ce76770b191b3bf74af560b728730
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Main_machine_Speed_T2
+    Id: g=acd6db0b57ad6537bfe2b53f83c960f9
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=ed895e312222a53b0b542081f5b45101
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Main_machine_Speed_T2"
+      Children:
+      - Name: Mode
+        Id: g=9a10204ecd7e7172dee3dc1c3aeb618c
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=ad8a77b572021bae10a203ff0d5fb66a
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=91e07ef59c5512b3fc1b6fc1f29175fb
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 20.0
+      - Name: High
+        Id: g=35ba1aaed6b6df6b64cbb67f292369b1
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 100.0
+      - Name: Constrain
+        Id: g=0b91ba8511f0f70733a69a03f6e52045
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Conveyor_Speed_T2
+    Id: g=5d81559ece670aebef84282a15c1b461
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=e50750f05db0ae3b9e28b7541777ed31
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Conveyor_Speed_T2"
+      Children:
+      - Name: Mode
+        Id: g=04a8d7cf0ed5dc63430e774e478611bc
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=d7bb7ee890b403bbcfc919da53603ddc
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=9ab2b5331366872b7ec945dc866269e9
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=b64857c168fb923fc7f55cd203f8786b
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 60.0
+      - Name: Constrain
+        Id: g=4dfe11aaf77f4bc7e58814bcb4a726de
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Spinning_motor_1_speed_T2
+    Id: g=9a3f537de099c641df031db64cbe2740
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=5a276ecd07477017e6f82f109685d89a
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Spinning_motor_1_speed_T2"
+      Children:
+      - Name: Mode
+        Id: g=fa838060c80d6319cab2a06a6a71cd9b
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=6fed7547039fc410f27b17ca755c8d4a
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=60e779315aa2c13288bd4bed9d342648
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=e4926f5d69c5711906ebc3729e11405d
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 60.0
+      - Name: Constrain
+        Id: g=cce91a6cd7a6f8224130a1d66bc850e2
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Spinning_motor_2_speed_T2
+    Id: g=bf6f1ed4eba988e06364e84e69297f4d
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=0443b1e01a330acf1822736fcb119a53
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Spinning_motor_2_speed_T2"
+      Children:
+      - Name: Mode
+        Id: g=306c4131b8d5765e523d4b9740a89afe
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=3042c242c7635cebe87770540fe96862
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=adfe79dcc36a87f82d9ab01691200fab
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=5dad332e877d4d20c1daaca223fce0f2
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 60.0
+      - Name: Constrain
+        Id: g=c79a8694f9eea5ae932d0925dede4e4f
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+  - Name: Rejection_Step_T2
+    Id: g=1bd4882b41f6aa10b8d4b8ae52ef114b
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=215e292ee9c52450604d3813f72248cf
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/Station_2 PLC/MicroControllerStation2/Tags/Recipe/Rejection_Step_T2"
+      Children:
+      - Name: Mode
+        Id: g=d3c3572b87bfc6323567c53907e0bede
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+    - Name: ns=0;EURange
+      Id: g=6195611dee7e853e6ceec4727cc444ac
+      Type: RangeType
+      DataType: Range
+      Children:
+      - Name: Low
+        Id: g=4ccad35cebd572d0379838ee203b8efc
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 0.0
+      - Name: High
+        Id: g=d8f967c7e1e0b52045751d9e46630869
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 9999.0
+      - Name: Constrain
+        Id: g=6c32d1307862eba0e7f2106bb6fbddd4
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        Value: true
+- Name: Recipe_import_export_part
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
